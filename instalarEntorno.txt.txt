@@ -1,0 +1,8 @@
+npm install -g typescript
+tsc -v
+npm install -g @angular/cli
+ng version
+N
+
+una vez en visual para levantar srvidor este comando:
+ng serve -o
