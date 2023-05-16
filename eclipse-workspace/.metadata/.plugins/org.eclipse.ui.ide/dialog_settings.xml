@@ -20,6 +20,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest"/>
 			<item value="/Users/abelcaralps/Documents/clientes-app/eclipse-workspace/spring-boot-backend-apirest"/>
 			<item value="C:\Users\infoc\OneDrive\Documentos\MEGAsync\dev\Angular_SpringBoot\Angular\clientes-app\eclipse-workspace\spring-boot-backend-apirest"/>
 		</list>
