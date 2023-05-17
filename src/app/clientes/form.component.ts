@@ -40,7 +40,13 @@ private activatedRoute: ActivatedRoute) { }
       }
       );
   }
-
+update():void{
+  this.clienteService.update(this.cliente)
+  .subscribe(cliente => {
+    this.router.navigate(['/clientes'])
+    Swal.fire('Client Updated', `Client ${cliente.nombre} updated successfully!`, 'success')
+  })
+}
 
 
 
