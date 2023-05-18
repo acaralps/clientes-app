@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Cliente} from './cliente'
-import {ClienteService} from './cliente.service'
-import {Router, ActivatedRoute} from '@angular/router'
+import { Cliente } from './cliente'
+import { ClienteService } from './cliente.service'
+import { Router, ActivatedRoute } from '@angular/router'
 import Swal from 'sweetalert2';
 
 
@@ -12,41 +12,40 @@ import Swal from 'sweetalert2';
 export class FormComponent implements OnInit {
 
   public cliente: Cliente = new Cliente()
-  public titulo:string = "Crear Cliente"
+  public titulo: string = "Crear Cliente"
 
   constructor(private clienteService: ClienteService,
-  private router: Router,
-private activatedRoute: ActivatedRoute) { }
+    private router: Router,
+    private activatedRoute: ActivatedRoute) { }
 
-  ngOnInit() {  
+  ngOnInit() {
     this.cargarCliente()
   }
 
-  cargarCliente():void {
+  cargarCliente(): void {
     this.activatedRoute.params.subscribe(params => {
       let id = params['id']
-      if(id){
-        this.clienteService.getCliente(id).subscribe( (cliente) => this.cliente = cliente
+      if (id) {
+        this.clienteService.getCliente(id).subscribe((cliente) => this.cliente = cliente
         )
       }
     })
   }
-
-  create(): void {  
+  create(): void {
     this.clienteService.create(this.cliente)
       .subscribe(cliente => {
         this.router.navigate(['/clientes'])
-         Swal.fire('New Client!', `Client ${cliente.nombre} created successfully!`, 'success')
+        Swal.fire('New Client!', `Client ${cliente.nombre} created successfully!`, 'success')
       }
       );
   }
-update():void{
-  this.clienteService.update(this.cliente)
-  .subscribe(cliente => {
-    this.router.navigate(['/clientes'])
-    Swal.fire('Client Updated', `Client ${cliente.nombre} updated successfully!`, 'success')
-  })
-}
+  update(): void {
+    this.clienteService.update(this.cliente)
+      .subscribe(cliente => {
+        this.router.navigate(['/clientes'])
+        Swal.fire('Client Updated', `Client ${cliente.nombre} updated successfully!`, 'success')
+      })
+  }
 
 
 
