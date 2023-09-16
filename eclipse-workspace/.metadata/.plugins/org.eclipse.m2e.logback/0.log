@@ -2155,3 +2155,13 @@
 2023-05-19 17:58:52,698 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest/src/test/resources
 2023-05-21 12:08:57,751 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-05-31 14:34:47,484 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-13 23:04:39,821 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-13 23:53:06,193 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-13 23:53:06,206 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-13 23:53:06,285 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Starting Hibernate enhancement for classes on /Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest/target/classes
+2023-06-13 23:53:06,451 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest/src/test/resources
+2023-06-13 23:58:19,158 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-13 23:58:19,168 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-13 23:58:19,171 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Starting Hibernate enhancement for classes on /Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest/target/classes
+2023-06-13 23:58:19,280 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/abelcaralps/Documents/GitHub/clientes-app/eclipse-workspace/spring-boot-backend-apirest/src/test/resources
+2023-06-14 20:31:59,786 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
